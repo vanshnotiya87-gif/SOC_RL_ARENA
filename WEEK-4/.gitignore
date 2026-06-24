@@ -1,0 +1,70 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# =========================
+# Jupyter / ML / RL
+# =========================
+.ipynb_checkpoints/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+
+# =========================
+# Pygame / Game files
+# =========================
+*.sav
+*.save
+
+# =========================
+# macOS garbage
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon
+__MACOSX/
+
+# =========================
+# Windows garbage
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.cache
